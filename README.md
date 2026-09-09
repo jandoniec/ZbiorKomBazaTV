@@ -8,7 +8,11 @@ Projekt powstał jako telewizyjna wersja ZbiorKom Baza, z interfejsem dostosowan
 
 ### Tablica odjazdów
 
+![Tablica Odjazdów](screenshots/S1.png)
+
 ### Ustawienia i wybór przystanku
+
+![Ustawienia](screenshots/S2.png)
 
 ## Funkcje
 

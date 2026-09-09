@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		667087FF3051638E006080E4 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 667087FE3051638E006080E4 /* ZIPFoundation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		667087E530515FF4006080E4 /* ZbiorKom Baza TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZbiorKom Baza TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -16,6 +20,11 @@
 			path = "ZbiorKom Baza TV";
 			sourceTree = "<group>";
 		};
+		6670880230517D1D006080E4 /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667087FF3051638E006080E4 /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +42,7 @@
 		667087DC30515FF4006080E4 = {
 			isa = PBXGroup;
 			children = (
+				6670880230517D1D006080E4 /* screenshots */,
 				667087E730515FF4006080E4 /* ZbiorKom Baza TV */,
 				667087E630515FF4006080E4 /* Products */,
 			);
@@ -62,9 +73,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				667087E730515FF4006080E4 /* ZbiorKom Baza TV */,
+				6670880230517D1D006080E4 /* screenshots */,
 			);
 			name = "ZbiorKom Baza TV";
 			packageProductDependencies = (
+				667087FE3051638E006080E4 /* ZIPFoundation */,
 			);
 			productName = "ZbiorKom Baza TV";
 			productReference = 667087E530515FF4006080E4 /* ZbiorKom Baza TV.app */;
@@ -94,6 +107,9 @@
 			);
 			mainGroup = 667087DC30515FF4006080E4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				667087FD3051638E006080E4 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 667087E630515FF4006080E4 /* Products */;
 			projectDirPath = "";
@@ -256,6 +272,7 @@
 				DEVELOPMENT_TEAM = 2G6WP8RPH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -285,6 +302,7 @@
 				DEVELOPMENT_TEAM = 2G6WP8RPH5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		667087FD3051638E006080E4 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		667087FE3051638E006080E4 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 667087FD3051638E006080E4 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 667087DD30515FF4006080E4 /* Project object */;
 }
